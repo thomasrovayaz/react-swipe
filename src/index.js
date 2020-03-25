@@ -78,6 +78,10 @@ class ReactSwipe extends Component {
     this.swipe.prev();
   }
 
+  disableScrolling(disableScroll) {
+    this.swipe.disableScrolling(disableScroll);
+  }
+
   slide(...args) {
     this.swipe.slide(...args);
   }

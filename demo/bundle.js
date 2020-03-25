@@ -26998,6 +26998,11 @@ function (_Component) {
       this.swipe.prev();
     }
   }, {
+    key: "disableScrolling",
+    value: function disableScrolling(disableScroll) {
+      this.swipe.disableScrolling(disableScroll);
+    }
+  }, {
     key: "slide",
     value: function slide() {
       var _this$swipe;
